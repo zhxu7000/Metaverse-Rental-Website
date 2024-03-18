@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  servlet.session.timeout: 60m
+spring:
+  datasource:
+    url: jdbc:mysql://elec5620.cth3qfan0t0o.ap-southeast-2.rds.amazonaws.com:3306
+    username: admin
+    password: elec5620psw
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
