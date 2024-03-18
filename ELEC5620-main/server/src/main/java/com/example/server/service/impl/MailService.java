@@ -26,7 +26,7 @@ public class MailService {
 //        Content content = new Content("text/plain", mailcontent);
 //        Mail mail = new Mail(from, subject, to, content);
 //
-//        SendGrid sg = new SendGrid("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");
+
 //        Request request = new Request();
 //        try {
 //            request.setMethod(Method.POST);
